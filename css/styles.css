@@ -4,226 +4,706 @@
    
     
 }
-html,body {
-    height: 100%;
+
+/* desktop */
+@media only screen and (min-width: 1024px) {
+    html,body {
+        height: 100%;
+        
+    }
     
-}
-
-.full-height {
-    height: 100%;
-    background-color: yellow;
-    background-image: url('../images/view.jpg');
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-}
-
-
-.header-content{
-    text-align: center;
-    padding-top: 100px;
-
-}
-
-.header-content h2{
-    font-size: 45px;
-    color: white;
-}
-
-.header-content h2 span{
-    color: yellowgreen;
-}
-
-.header-content h3 {
-    font-size: 30px;
-    color: white;
-
-}
-
-.my-intro {
-    color: black;
-    font-size: 25px;
-    width: 50%;
-    text-align: center;
-    margin: auto;
-    /* background-color:  rgba(0, 151, 19, 0.3); */
-    
-
-}
-
-
-
-
-.image-template {
-    background-image: url("../images/bg.jpg");
-    background-repeat: no-repeat;
-    height: 100;
-    width: 100%;
-    background-size: cover;
-}
-
-
-#intro{        
-    /* background-color: gray; */
-    height: 400px;
-    text-align: center;
-    margin: auto;
-    padding: 50px;
-    
-}
-
-.profile {
-    height: 400px;
-    float: left;
-    margin-right: 85px;
-}
-
-
-
-
-.paragraph {
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 200px;
-    font-size: 20px;
-    font-family: cursive;
-    color: white;
-    float: left;
-    margin: 20px;
-    padding: 25px;
-     
-    text-align: justify;
-    
-}
-
-
-
-.container{
-    margin-top: 50px;
-    height: 460px;
-    /* background-color: blueviolet; */
-}
-
-.container-education{
-    margin-top: 50px;
-    height: 460px;
-    background-color: rgba(0, 0, 0, 0.3);
+    .full-height {
+        height: 100%;
+        background-color: yellow;
+        background-image: url('../images/view.jpg');
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
     
     
-}
-
-.education{
-    float: left;
-    width: 45%;
-    padding-left: 35px;
-    padding-top: 20px;
-    height: 300px;
-    margin-left: 25px;
-    margin-top: 25px;
+    .header-content{
+        text-align: center;
+        padding-top: 100px;
     
+    }
     
-}
-
-.edu-info{
-    font-size: 20px;
-    font-family: cursive;
-    color: white;
-    float: left; 
-    width: 50%; 
-    text-align: justify; 
-    padding-left: 10px;
-    padding-top: 10px;
+    .header-content h2{
+        font-size: 45px;
+        color: white;
+    }
+    
+    .header-content h2 span{
+        color: yellowgreen;
+    }
+    
+    .header-content h3 {
+        font-size: 30px;
+        color: white;
+    
+    }
+    
+    .my-intro {
+        color: black;
+        font-size: 25px;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        /* background-color:  rgba(0, 151, 19, 0.3); */
         
     
-
-}
-
-.education-header{
-    text-decoration: underline;
-    text-align: center;
-    font-size: 25px;
-    color: white;
+    }
     
     
-   
-
-}
-
-.education-image {
-    height: 200px;
-    width: 40%;
-    float: left;
-    padding-top: 15px;
-   
-    border-radius: 50px;
     
-
-}
-
-#ed-school {
-    background-color: transparent;
-
-}
-#ed-bachelor {
-    background-color:transparent;
-
-}
-
-#skills , #hobbies {
-    float: left;
-    padding: 50px;
     
+    .image-template {
+        background-image: url("../images/bg.jpg");
+        background-repeat: no-repeat;
+        height: 100;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    
+    #intro{        
+        /* background-color: gray; */
+        height: 400px;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        
+    }
+    
+    .profile {
+        height: 400px;
+        float: left;
+        margin-right: 85px;
+    }
+    
+    
+    
+    
+    .paragraph {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 200px;
+        font-size: 20px;
+        font-family: cursive;
+        color: white;
+        float: left;
+        margin: 20px;
+        padding: 25px;
+         
+        text-align: justify;
+        
+    }
+    
+    
+    
+    .container{
+        margin-top: 50px;
+        height: 460px;
+        /* background-color: blueviolet; */
+    }
+    
+    .container-education{
+        margin-top: 50px;
+        height: 460px;
+        background-color: rgba(0, 0, 0, 0.3);
+        
+        
+    }
+    
+    .education{
+        float: left;
+        width: 45%;
+        padding-left: 35px;
+        padding-top: 20px;
+        height: 300px;
+        margin-left: 25px;
+        margin-top: 25px;
+        
+        
+    }
+    
+    .edu-info{
+        font-size: 20px;
+        font-family: cursive;
+        color: white;
+        float: left; 
+        width: 50%; 
+        text-align: justify; 
+        padding-left: 10px;
+        padding-top: 10px;
+            
+        
+    
+    }
+    
+    .education-header{
+        text-decoration: underline;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        
+        
        
-    width: 400px;
     
-}
-
-.list-item {
-    font-size: 25px;
-    color: white;
+    }
     
-}
-
-#skills {
-    background-color: transparent;
-    margin-left: 25px;
-}
-
-#hobbies {
-    background-color: transparent;
-    margin-left: 150px;
-}
-
-#contact {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 25px;
-    height: 250px;
-
-}
-
-.container-header {
-    font-size: 35px;
-    color: white;    
-    padding: 20px;
-}
-
-.contact-content {
-    font-size: 25px;
-    color: white;
-    margin-top: 15px;
+    .education-image {
+        height: 200px;
+        width: 40%;
+        float: left;
+        padding-top: 15px;
+       
+        border-radius: 50px;
+        
     
-}
-
-
-footer {
-    background-color: black;
-    color: white;
-    height: 50px;
-    bottom: 0px;
-    text-align: center;
-}
-
-hr {
-    margin-left: 5%;
-    margin-right: 5%;
-}
+    }
+    
+    #ed-school {
+        background-color: transparent;
+    
+    }
+    #ed-bachelor {
+        background-color:transparent;
+    
+    }
+    
+    #skills , #hobbies {
+        float: left;
+        padding: 50px;
+        
+           
+        width: 400px;
+        
+    }
+    
+    .list-item {
+        font-size: 25px;
+        color: white;
+        
+    }
+    
+    #skills {
+        background-color: transparent;
+        margin-left: 25px;
+    }
+    
+    #hobbies {
+        background-color: transparent;
+        margin-left: 150px;
+    }
+    
+    #contact {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-top: 25px;
+        height: 250px;
+    
+    }
+    
+    .container-header {
+        font-size: 35px;
+        color: white;    
+        padding: 20px;
+    }
+    
+    .contact-content {
+        font-size: 25px;
+        color: white;
+        margin-top: 15px;
+        
+    }
+    
+    
+    footer {
+        background-color: black;
+        color: white;
+        height: 50px;
+        bottom: 0px;
+        text-align: center;
+    }
+    
+    hr {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
+/* tablet */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    html,body {
+        height: 100%;
+        
+    }
+    
+    .full-height {
+        height: 100%;
+        background-color: yellow;
+        background-image: url('../images/view.jpg');
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    
+    .header-content{
+        text-align: center;
+        padding-top: 100px;
+    
+    }
+    
+    .header-content h2{
+        font-size: 45px;
+        color: white;
+    }
+    
+    .header-content h2 span{
+        color: yellowgreen;
+    }
+    
+    .header-content h3 {
+        font-size: 30px;
+        color: white;
+    
+    }
+    
+    .my-intro {
+        color: black;
+        font-size: 25px;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        /* background-color:  rgba(0, 151, 19, 0.3); */
+        
+    
+    }
+    
+    
+    
+    
+    .image-template {
+        background-image: url("../images/bg.jpg");
+        background-repeat: no-repeat;
+        height: 100;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    
+    #intro{        
+        /* background-color: gray; */
+        height: 400px;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        
+    }
+    
+    .profile {
+        height: 400px;
+        float: left;
+        margin-right: 85px;
+    }
+    
+    
+    
+    
+    .paragraph {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 200px;
+        font-size: 20px;
+        font-family: cursive;
+        color: white;
+        float: left;
+        margin: 20px;
+        padding: 25px;
+         
+        text-align: justify;
+        
+    }
+    
+    
+    
+    .container{
+        margin-top: 50px;
+        height: 460px;
+        /* background-color: blueviolet; */
+    }
+    
+    .container-education{
+        margin-top: 50px;
+        height: 460px;
+        background-color: rgba(0, 0, 0, 0.3);
+        
+        
+    }
+    
+    .education{
+        float: left;
+        width: 45%;
+        padding-left: 35px;
+        padding-top: 20px;
+        height: 300px;
+        margin-left: 25px;
+        margin-top: 25px;
+        
+        
+    }
+    
+    .edu-info{
+        font-size: 20px;
+        font-family: cursive;
+        color: white;
+        float: left; 
+        width: 50%; 
+        text-align: justify; 
+        padding-left: 10px;
+        padding-top: 10px;
+            
+        
+    
+    }
+    
+    .education-header{
+        text-decoration: underline;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        
+        
+       
+    
+    }
+    
+    .education-image {
+        height: 200px;
+        width: 40%;
+        float: left;
+        padding-top: 15px;
+       
+        border-radius: 50px;
+        
+    
+    }
+    
+    #ed-school {
+        background-color: transparent;
+    
+    }
+    #ed-bachelor {
+        background-color:transparent;
+    
+    }
+    
+    #skills , #hobbies {
+        float: left;
+        padding: 50px;
+        
+           
+        width: 400px;
+        
+    }
+    
+    .list-item {
+        font-size: 25px;
+        color: white;
+        
+    }
+    
+    #skills {
+        background-color: transparent;
+        margin-left: 25px;
+    }
+    
+    #hobbies {
+        background-color: transparent;
+        margin-left: 150px;
+    }
+    
+    #contact {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-top: 25px;
+        height: 250px;
+    
+    }
+    
+    .container-header {
+        font-size: 35px;
+        color: white;    
+        padding: 20px;
+    }
+    
+    .contact-content {
+        font-size: 25px;
+        color: white;
+        margin-top: 15px;
+        
+    }
+    
+    
+    footer {
+        background-color: black;
+        color: white;
+        height: 50px;
+        bottom: 0px;
+        text-align: center;
+    }
+    
+    hr {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
+/* mobile */
+  @media only screen and (max-width: 767px) {
+    .full-height {
+        width: 100%;
+        height: 100%;
+        background-color: yellow;
+        background-image: url('../images/view.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    
+    .header-content{
+        text-align: center;
+        padding-top: 40px;
+    
+    }
+    
+    .header-content h2{
+        font-size: 30px;
+        color: black;
+    }
+    
+    .header-content h2 span{
+        color: yellowgreen;
+    }
+    
+    .header-content h3 {
+        font-size: 25px;
+        color: white;
+    
+    }
+    
+    .my-intro {
+        color: white;
+        font-size: 20px;
+       
+        text-align: justify;
+        
+        padding: 15px;
+        
+        background-color: rgba(0, 0, 0, 0.5);
+        
+    
+    }
+    
+    
+    
+    
+    .image-template {
+        clear: both;
+        background-image: url("../images/bg.jpg");
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    
+    #intro{  
+        clear: both;      
+        /* background-color: gray; */
+        height: 400px;
+        /* text-align: center; */
+       
+        padding: 50px;
+        
+    }
+    
+    .profile {
+        clear: both;
+        height: 200px;
+        width: 100%;
+        /* float: left; */
+        margin-right: 15px;
+    }
+    
+    
+    
+    
+    .paragraph {
+        clear: both;
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 200px;
+        font-size: 20px;
+        font-family: cursive;
+        color: white;
+        /* float: left; */
+       
+        padding: 15px;
+        width: 100%;
+         
+        text-align: justify;
+        
+    }
+    
+    
+    
+    .container{
+        margin-top: 20px;
+        height: 700px;
+        /* background-color: blueviolet; */
+    }
+    
+    .container-education{
+        clear: both;
+        /* margin-top: 50px; */
+        height: 860px;
+        background-color: rgba(0, 0, 0, 0.3);
+        
+        
+    }
+    
+    .education{
+        clear: both;
+        /* float: left; */
+        width: 70%;
+        padding-left: 35px;
+        padding-top: 20px;
+        height: 300px;
+        margin-left: 25px;
+        margin-top: 25px;
+        
+        
+    }
+    
+    .edu-info{
+        clear: both;
+        font-size: 20px;
+        font-family: cursive;
+        color: white;
+        /* float: left;  */
+        width: 100%; 
+        text-align: justify; 
+        padding-left: 10px;
+        padding-top: 10px;
+            
+        
+    
+    }
+    
+    .education-header{
+        clear: both;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+       
+        
+        
+       
+    
+    }
+    
+    .education-image {
+        clear: both;
+        height: 200px;
+        width: 100%;
+        /* float: left; */
+        padding-top: 15px;
+       
+        border-radius: 50px;
+        
+    
+    }
+    
+    #ed-school {
+        background-color: transparent;
+    
+    }
+    #ed-bachelor {
+        background-color:transparent;
+       padding-top: 45px;
+    
+    }
+    
+    #skills , #hobbies {
+        clear: both;
+        /* float: left; */
+        padding: 40px;
+        width: 100%;
+        height: 250px;
+        margin-left: 25px;
+        
+           
+        
+        
+    }
+    
+    .list-item {
+        font-size: 25px;
+        color: white;
+        
+    }
+    
+    #skills {
+        background-color: transparent;
+        
+    }
+    
+    #hobbies {
+        background-color: transparent;
+       
+    }
+    
+    #contact {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-top: 25px;
+        height: 300px;
+        width: 100%;
+    
+    }
+    
+    .container-header {
+        font-size: 35px;
+        color: white;    
+        padding: 20px;
+    }
+    
+    .contact-content {
+        font-size: 20px;
+        color: white;
+        margin-top: 15px;
+        text-align: left;
+        padding-left: 15px;
+        
+        
+    }
+    .contact-content a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    footer {
+        background-color: black;
+        color: white;
+        height: 50px;
+        bottom: 0px;
+        text-align: center;
+    }
+    
+    hr {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
